@@ -1,2 +1,2 @@
 # tekaxic
-modpack by yours truely
+modpack by le friends and I
