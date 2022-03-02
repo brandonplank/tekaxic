@@ -1,0 +1,41 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = resources/mainassets/bg/bg1.png
+  autoscale_baseheight = 1080
+  renderorder = foreground
+  autoscale_basewidth = 1920
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  action = editprogressbar
+  y = 0
+  barcolor = FFFFFF
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #000000
+  shadow = false
+  splashfilepath = resources/loadsplashes.txt
+  rotation = 0.0
+  x = 0
+  actionid = 5c64f425-0378-4fe8-8431-e8006b8d8bce1646259042985
+  action = addsplash
+  y = -13
+  scale = 1.0
+  refresh = false
+  bouncing = false
+}
+
