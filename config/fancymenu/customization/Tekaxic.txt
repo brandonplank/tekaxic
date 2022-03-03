@@ -1,0 +1,102 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/mainassets/bg/bg1.png
+  action = texturizebackground
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -39
+}
+
+customization {
+  identifier = %id=400346%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+}
+
+customization {
+  path = resources/mainassets/logo/logo3.png
+  orientation = mid-centered
+  x = -84
+  width = 168
+  action = addtexture
+  actionid = da962572-8a38-4b0c-94dd-20d617178fc21646265046628
+  y = -190
+  height = 100
+}
+
+customization {
+  showname = true
+  orientation = mid-left
+  crouching = false
+  x = 293
+  slim = false
+  actionid = 601552d9-7039-4a4d-8bf0-12078c305b221646265354371
+  action = addentity
+  y = 31
+  scale = 60
+  playername = %playername%
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = resources\loadsplashes.txt
+  rotation = 20.0
+  x = 534
+  actionid = 9af9e027-f36f-4724-8707-cfeeb0b7550a1646266514719
+  action = addsplash
+  y = 107
+  scale = 1.0
+  refresh = false
+  bouncing = true
+}
+
