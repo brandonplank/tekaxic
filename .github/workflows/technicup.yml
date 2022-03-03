@@ -21,7 +21,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Create ZIP archive
-        run: zip -r tekaxic.zip $GITHUB_WORKSPACE
+        run: zip -r tekaxic.zip $GITHUB_WORKSPACE -x "$GITHUB_WORKSPACE/.git/*" 
 
       - name: Upload
         run: curl --upload-file tekaxic.zip https://transfer.sh
